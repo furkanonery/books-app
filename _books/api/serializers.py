@@ -2,7 +2,7 @@ from rest_framework import serializers
 from _books.models import Book, Comment
 
 class CommentSerializer(serializers.ModelSerializer):
-
+    commenter = serializers.StringRelatedField(read_only=True)
     class Meta:
         model = Comment
         # fields = '__all__'
