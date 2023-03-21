@@ -1,5 +1,5 @@
-from rest_framework.generics import GenericAPIView
-from rest_framework.mixins import ListModelMixin, CreateModelMixin
+# from rest_framework.generics import GenericAPIView
+# from rest_framework.mixins import ListModelMixin, CreateModelMixin
 
 from rest_framework import generics
 from rest_framework.generics import get_object_or_404
